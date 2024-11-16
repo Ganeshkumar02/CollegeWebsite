@@ -1,17 +1,15 @@
 import React, { useRef } from 'react'
 import './Testimonial.css'
+
 const Testimonial = () => {
-    
     const slider = useRef();
     let tx =0;
-
     const slideForward = () =>{
         if(tx>-50){
             tx-=25;
         }
         slider.current.style.transform = `translateX(${tx}%)`
     }
-
     const slideBackward = () =>{
         if(tx < 0){
             tx += 25;
@@ -93,8 +91,6 @@ const Testimonial = () => {
                               impedit nihil error reprehenderit consequuntur asperiores.</p>
                     </div>
                 </li>
-
-                
             </ul>
         </div>
     </div>

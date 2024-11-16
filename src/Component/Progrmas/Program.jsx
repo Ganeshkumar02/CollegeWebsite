@@ -32,4 +32,4 @@ const Program = () => {
   )
 }
 
-export default Program
+export default Program;

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll';
-
-// import { Link } from 'react-router-dom';
-
 import'./Navbar.css'
-import { set } from 'mongoose';
+// import { set } from 'mongoose';
+
+
+
 const Navbar = () => {
   const [sticky, setSticky]=useState(false);
   useEffect(()=>{
