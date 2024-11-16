@@ -22,10 +22,10 @@ const Testimonial = () => {
   return (
     <div className='testimonials'>
         <div className='next-btn' onClick={slideForward}>
-        <i class="ri-arrow-right-line"></i>
+        <i className="ri-arrow-right-line"></i>
         </div>
         <div className='back-btn' onClick={slideBackward}>
-        <i class="ri-arrow-left-fill"></i>
+        <i className="ri-arrow-left-fill"></i>
         </div>
         <div className='slider'>
             <ul ref={slider}>
